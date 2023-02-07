@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Button, Space } from 'antd';
+import { Space } from 'antd';
+import Button from './parts/Button';
 
 function App() {
   return (
     <div className="App">
       <Space wrap>
-        <Button type="primary">PrimaryButton</Button>
+        <Button type='primary' word='button-primary'/>
       </Space>
     </div>
   );
