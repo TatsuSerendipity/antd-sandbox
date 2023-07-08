@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+}

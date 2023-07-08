@@ -1,16 +1,17 @@
-import React from 'react';
-import './App.css';
-import { Space } from 'antd';
-import Button from './parts/Button';
+import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import Navigation from "./pages/Navigation";
+import ButtonSample from "./pages/ButtonaSample";
 
-function App() {
-  return (
-    <div className="App">
-      <Space wrap>
-        <Button type='primary' word='button-primary'/>
-      </Space>
-    </div>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <Route path="/">
+      <Navigation />
+    </Route>
+    <Route path="/ButtonSample">
+      <ButtonSample />
+    </Route>
+  </BrowserRouter>
+);
 
 export default App;
