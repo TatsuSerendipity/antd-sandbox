@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <>
-    <div>antd sandbox</div>
+    <div>Antd Sandbox</div>
     <ul>
       <li>
         <a href="/">Home</a>
