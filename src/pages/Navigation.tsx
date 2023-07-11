@@ -10,6 +10,9 @@ const Navigation = () => (
       <li>
         <a href="/ButtonSample">Button Sample</a>
       </li>
+      <li>
+        <a href="/TableSample">Table Sample</a>
+      </li>
     </ul>
   </>
 );
