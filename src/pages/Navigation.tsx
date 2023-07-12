@@ -13,6 +13,9 @@ const Navigation = () => (
       <li>
         <a href="/TableSample">Table Sample</a>
       </li>
+      <li>
+        <a href="/MapSample">Map Sample</a>
+      </li>
     </ul>
   </>
 );
